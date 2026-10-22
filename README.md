@@ -1,8 +1,36 @@
+﻿## My Terraform AWS Labs - Progress
+
+**Student:** Mohamed Aziz Bannour  
+**Platform:** AWS Academy Learner Lab  
+**Tools:** Terraform, AWS CLI, PowerShell, Git and GitHub  
+**Progress:** 7 / 16 Labs completed
+
+### Completed Labs
+
+| Lab | Description | Git Commit |
+|---|---|---|
+| 01 | Terraform setup and AWS provider | [`a6776a7`](./commit/a6776a7) |
+| 02 | VPC creation | [`944be25`](./commit/944be25) |
+| 03 | Variables, outputs and dependencies | [`f50f300`](./commit/f50f300) |
+| 04 | Multiple AWS resources | [`12d68b6`](./commit/12d68b6) |
+| 05 | State, data sources and CLI | [`0aa43b2`](./commit/0aa43b2) |
+| 06 | Dynamic and reusable code | [`24e89c7`](./commit/24e89c7) |
+| 07 | Simplifying code with local values | [`0397c81`](./commit/0397c81) |
+
+### Implementation
+
+Labs 01-04 were developed progressively in `labs/terraform`, while Lab 05 uses `labs/development`. Labs 06 and 07 were implemented in their respective `AWS` directories.
+
+**Verification:** Terraform initialization, validation, plans and applies were tested on AWS Academy. Lab 05 also included resource destruction. Terraform state files and AWS credentials are not published.
+
+---
+
+
 ## HashiCorp Terraform Labs
 
-Welcome to this HashiCorp Terraform lab repo, where you can get hands-on experience with **HashiCorp Terraform**. In this repository, you’ll find a variety of [labs](./labs) that walk you through learning and using HashiCorp Terraform in different scenarios.
+Welcome to this HashiCorp Terraform lab repo, where you can get hands-on experience with **HashiCorp Terraform**. In this repository, youâ€™ll find a variety of [labs](./labs) that walk you through learning and using HashiCorp Terraform in different scenarios.
 
-## What’s Included
+## Whatâ€™s Included
 
 - Multiple labs, each with its own `README.md` and step-by-step instructions.
 - Example files, scripts, and configurations to help you practice Terraform's core features.
@@ -17,7 +45,7 @@ Below are different labs you can explore. Each link points to a specific lab fil
 
 Each lab is available in AWS, Azure, or GitHub - allowing you to choose the platform you're most comfortable with to learn.
 
-## 💻 HashiCorp Terraform Basics 💻
+## ðŸ’» HashiCorp Terraform Basics ðŸ’»
 
 Labs 1 through 5 are designed to be completed in order as each builds on the previous lab.
 
@@ -31,7 +59,7 @@ Labs 1 through 5 are designed to be completed in order as each builds on the pre
 
 <br/>
 
-## ✨ Making Code More Dynamic and Reusable ✨
+## âœ¨ Making Code More Dynamic and Reusable âœ¨
 
 These labs are fully self-contained and can be completed in any order.
 | **#** | **Lab Name** | **AWS** | **Azure** | **GitHub** |
@@ -47,7 +75,7 @@ These labs are fully self-contained and can be completed in any order.
 
 <br/>
 
-## ⚙️ Working with Terraform Modules ⚙️
+## âš™ï¸ Working with Terraform Modules âš™ï¸
 
 These labs are fully self-contained and can be completed in any order.
 
@@ -58,7 +86,7 @@ These labs are fully self-contained and can be completed in any order.
 
 <br/>
 
-## 🔧 Managing and Maintaining Your Terraform Code 🔧
+## ðŸ”§ Managing and Maintaining Your Terraform Code ðŸ”§
 
 These labs are fully self-contained and can be completed in any order.
 
@@ -72,8 +100,9 @@ These labs are fully self-contained and can be completed in any order.
 
 ## Contributing
 
-If you’d like to add more labs or improve these, feel free to fork this repo or open a pull request. Feedback and contributions are always welcome!
+If youâ€™d like to add more labs or improve these, feel free to fork this repo or open a pull request. Feedback and contributions are always welcome!
 
 ---
 
 Enjoy your journey with Terraform!
+
